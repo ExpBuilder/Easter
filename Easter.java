@@ -11,10 +11,10 @@ public class Easter {
         int h = (19 * a + b - d - g + 15) % 30;
         int i = c / 4;
         int k = c % 4;
-        int r = (32 + 2(i + e) - (h + k))  % 7;
+        int r = (32 + 2 * (i + e) - (h + k))  % 7;
         int m = (a  + 11 * h + 22 * r) / 451;
         int n = (h + r - 7 * m + 114) / 31;
-        int p = (h + r - 7 * m + 114) %31;
+        int p = (h + r - 7 * m + 114) % 31;
 
         System.out.println(a);
         System.out.println(b);
@@ -30,5 +30,6 @@ public class Easter {
         System.out.println(m);
         System.out.println(n);
         System.out.println(p);
+        System.out.println("Easter in " + y + " falls in " + n + "/" + (p + 1));
      }
 }
