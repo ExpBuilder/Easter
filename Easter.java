@@ -1,5 +1,7 @@
 public class Easter {
     public static void main(String[] args) {
+        /* Joe J.
+        This project predicts the date Easter falls on the year imputed in 'int y'. This will work for all years including and after 1583.*/
         int y = 2025;
         int a = y % 19;
         int b = y / 100;
